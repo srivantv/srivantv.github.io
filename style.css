@@ -20,22 +20,7 @@ body {
   perspective: 1000px;
 }
 /* Add this CSS to style the Valentine's message */
-.valentines-message {
-    position: absolute;
-    top: 5vh; /* Adjust the vertical positioning as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2em; /* Adjust size as needed */
-    color: #ffffff; /* Adjust color as needed, ensuring it's visible against the background */
-    font-family: 'Arial', sans-serif; /* Or any font you prefer */
-    z-index: 1000; /* Ensure it's above other elements */
-    text-align: center;
-    width: 100%;
-    padding: 10px 0; /* Add some padding for visual spacing */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to enhance readability */
-    border-radius: 10px; /* Optional: Round the corners of the background */
-    margin: 20px 0; /* Optional: Add some margin to the top for spacing */
-}
+
 
 
 .night {
