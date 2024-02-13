@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe0f0;
+            overflow: hidden; /* Keeps any moving elements from causing scrollbars */
+        }
+        .message {
+            margin-top: 50px;
+            font-size: 2em;
+            color: #ff1493;
+        }
+        /* Basic example for animation, you'll want to replace this with your animated flowers */
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+        .flower {
+            width: 100px;
+            height: 100px;
+            background-image: url('your_flower_image_url_here');
+            background-size: contain;
+            position: absolute;
+            animation: float 5s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+<div class="message">Happy Valentine's Day Thrishhh</div>
+
+<!-- Example Flower, duplicate and position as needed -->
+<div class="flower" style="left: 50%;"></div>
+
+<script>
+    // Example JavaScript for dynamically adding flowers or animations
+</script>
+
+</body>
+</html>
