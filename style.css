@@ -1337,7 +1337,7 @@ body {
 }
 
 @keyframes moving-grass--2 {
-  0%,
+  0%, 
   100% {
     transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg);
   }
