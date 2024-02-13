@@ -19,9 +19,6 @@ body {
   overflow: hidden;
   perspective: 1000px;
 }
-/* Add this CSS to style the Valentine's message */
-
-
 
 .night {
   position: fixed;
